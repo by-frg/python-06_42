@@ -10,4 +10,4 @@ def light_spell_record(spell_name: str, ingredients: str) -> str:
     if "INVALID" in result:
         return (f"Spell rejected: {spell_name} ({result})")
     return (f"Spell recorded: {spell_name} ({result})")
-    #testar a outra forma de evitar circularidade
+    # testar a outra forma de evitar circularidade

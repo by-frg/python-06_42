@@ -5,6 +5,7 @@ from .light_spellbook import (
 )
 
 __all__ = [
-           "validate_ingredients", "light_spell_allowed_ingredients",
+           "validate_ingredients",
+           "light_spell_allowed_ingredients",
            "light_spell_record",
           ]
